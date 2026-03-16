@@ -7,7 +7,7 @@ import { LanguageProvider } from "@/lib/i18n/language-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Vlera Ekskluziv - PVC Doors and Windows",
+  title: "Vlera PVC - Fenster und Türen",
   description: "Premium PVC doors and windows for your home or business",
     generator: 'v0.dev'
 }
