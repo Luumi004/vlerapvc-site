@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { useLanguage } from "@/lib/i18n/language-context"
+import Image from "next/image";
+import { useLanguage } from "@/lib/i18n/language-context";
 
 export default function TeamSection() {
-  const { t } = useLanguage()
+  const { t } = useLanguage();
 
   const workshopImages = [
     {
@@ -12,27 +12,34 @@ export default function TeamSection() {
       alt: "Main workshop production area with PVC window and door frames",
     },
     {
-      src: "/images/workshop-2.jpg",
+      src: "/images/workshop-2.jpeg",
       alt: "Workshop technician working on PVC window assembly",
     },
     {
       src: "/images/workshop-3.jpg",
       alt: "Industrial machinery and equipment for PVC manufacturing",
     },
-  ]
+  ];
 
   return (
     <div className="container mx-auto px-4">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">{t("team.title")}</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          {t("team.title")}
+        </h2>
         <div className="w-20 h-1 bg-brand-blue mx-auto"></div>
       </div>
 
       <div>
-        <h3 className="text-2xl font-semibold text-gray-800 mb-8 text-center">{t("team.workshop.title")}</h3>
+        <h3 className="text-2xl font-semibold text-gray-800 mb-8 text-center">
+          {t("team.workshop.title")}
+        </h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {workshopImages.map((image, index) => (
-            <div key={index} className="relative h-64 rounded-lg overflow-hidden shadow-lg group">
+            <div
+              key={index}
+              className="relative h-64 rounded-lg overflow-hidden shadow-lg group"
+            >
               <Image
                 src={image.src || "/placeholder.svg"}
                 alt={image.alt}
@@ -44,9 +51,11 @@ export default function TeamSection() {
           ))}
         </div>
         <div className="mt-8 text-center">
-          <p className="text-gray-600 max-w-3xl mx-auto">{t("team.workshop.description")}</p>
+          <p className="text-gray-600 max-w-3xl mx-auto">
+            {t("team.workshop.description")}
+          </p>
         </div>
       </div>
     </div>
-  )
+  );
 }

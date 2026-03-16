@@ -45,7 +45,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4 pt-2">
               <Link
-                href="https://facebook.com"
+                href="https://facebook.com/VleraPvc/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white/10 hover:bg-white/20 p-2.5 rounded-full transition-colors"
@@ -54,7 +54,7 @@ export default function Footer() {
                 <Facebook className="h-5 w-5" />
               </Link>
               <Link
-                href="mailto:info@vleraekskluziv.com"
+                href="mailto:info@vlerapvc.ch"
                 className="bg-white/10 hover:bg-white/20 p-2.5 rounded-full transition-colors"
                 aria-label="Email"
               >
@@ -104,7 +104,7 @@ export default function Footer() {
               </p>
               <p className="flex items-start">
                 <span className="block w-20 text-gray-400">Email:</span>
-                <span>vlera.ekskluziv@yahoo.com</span>
+                <span>info@vlerapvc.ch</span>
               </p>
             </address>
           </div>
