@@ -1,21 +1,22 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import "./globals.css"
-import { LanguageProvider } from "@/lib/i18n/language-context"
+import type React from "react";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { LanguageProvider } from "@/lib/i18n/language-context";
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Vlera PVC - Fenster und Türen",
-  description: "Premium PVC doors and windows for your home or business",
-    generator: 'v0.dev'
-}
+  description:
+    "Hochwertige PVC-Fenster und -Türen für Ihr Zuhause oder Ihr Unternehmen",
+  generator: "v0.dev",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
@@ -23,5 +24,5 @@ export default function RootLayout({
         <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
-  )
+  );
 }
