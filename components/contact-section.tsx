@@ -29,7 +29,7 @@ export default function ContactSection() {
                   {t("contact.phone")}
                 </h4>
                 <p className="text-gray-600">+389 70 271 289</p>
-                <p className="text-gray-600">+389 70 378 389</p>
+                <p className="text-gray-600">+41 76 213 19 16</p>
               </div>
             </div>
 
