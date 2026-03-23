@@ -204,7 +204,7 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     "partners.ecoseal.description": "Weather-resistant sealing solutions.",
 
     "team.title": "Our Workshop",
-    "team.workshop.title": "Vlera Ekskluziv",
+    "team.workshop.title": "Vlera PVC",
     "team.workshop.description":
       "Our state-of-the-art workshop is equipped with the latest technology and machinery to ensure precision manufacturing of all our PVC products. Our skilled team works diligently to maintain the highest standards of quality at every stage of production.",
 
@@ -338,7 +338,7 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     "partners.ecoseal.description": "Zgjidhje vulosëse rezistente ndaj motit.",
 
     "team.title": "Punëtoria Jonë",
-    "team.workshop.title": "Vlera Ekskluziv",
+    "team.workshop.title": "Vlera PVC",
     "team.workshop.description":
       "Punëtoria jonë moderne është e pajisur me teknologjinë dhe makineritë më të fundit për të siguruar prodhim preciz të të gjitha produkteve tona PVC. Ekipi ynë i aftë punon me zell për të ruajtur standardet më të larta të cilësisë në çdo fazë të prodhimit.",
 
@@ -472,7 +472,7 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
       "Решенија за заптивање отпорни на временски услови.",
 
     "team.title": "Нашата Работилница",
-    "team.workshop.title": "Влера Ексклузив",
+    "team.workshop.title": "Vlera PVC",
     "team.workshop.description":
       "Нашата современа работилница е опремена со најновата технологија и машинерија за да обезбеди прецизно производство на сите наши ПВЦ производи. Нашиот вешт тим работи вредно за да ги одржи највисоките стандарди за квалитет во секоја фаза на производството.",
 
@@ -607,7 +607,7 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     "partners.ecoseal.description": "Wetterbeständige Dichtungslösungen.",
 
     "team.title": "Unsere Werkstatt",
-    "team.workshop.title": "Vlera Ekskluziv",
+    "team.workshop.title": "Vlera PVC",
     "team.workshop.description":
       "Unsere hochmoderne Werkstatt ist mit der neuesten Technologie und Maschinerie ausgestattet, um eine präzise Fertigung all unserer PVC-Produkte zu gewährleisten. Unser qualifiziertes Team arbeitet sorgfältig daran, die höchsten Qualitätsstandards in jeder Produktionsphase aufrechtzuerhalten.",
 
