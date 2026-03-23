@@ -99,8 +99,11 @@ export default function Footer() {
               </p>
               <p className="flex items-start">
                 <span className="block w-20 text-gray-400">Phone:</span>
-                <span>+389 70 271 289</span>
-                <span>+389 70 378 389</span>
+                <span>
+                  +41 76 213 19 16
+                  <br />
+                  +389 70 378 389
+                </span>
               </p>
               <p className="flex items-start">
                 <span className="block w-20 text-gray-400">Email:</span>
