@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   description:
     "Hochwertige PVC-Fenster und -Türen für Ihr Zuhause oder Ihr Unternehmen",
   generator: "v0.dev",
+  icons: {
+    icon: "/images/VleraLeoTab.jpg",
+    shortcut: "/images/VleraLeoTab.jpg",
+    apple: "/images/VleraLeoTab.jpg",
+  },
 };
 
 export default function RootLayout({
